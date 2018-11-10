@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="label_dado_cliente">Dados do cliente</string>
+    <string name="label_escolha">Escolha a(s) pizza(s)</string>
+    <string name="hint_nome_cliente">Informe o nome do cliente</string>
+    <string name="label_atum">Atum</string>
+    <string name="label_bacon">Bacon</string>
+    <string name="label_calabresa">Calabresa</string>
+    <string name="label_mussarela">Mussarela</string>
+    <string name="label_pequena">Pequena</string>
+    <string name="label_media">Média</string>
+    <string name="label_grande">Grande</string>
+    <string name="label_tamanho">Tamanho da Pizza</string>
+    <string name="label_pagamento">Forma de pagamento</string>
+
+    <string name="credito">Cartão de Crédito</string>
+    <string name="debito">Cartão de Débito</string>
+    <string name="vr">Vale refeição</string>
+    <string name="fiado">Fiado</string>
+    <string name="cupom">Cupom</string>
+    <string name="botao_calcular">Calcular</string>
+
+</resources>
