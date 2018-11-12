@@ -4,24 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.main.MainActivity">
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".MainActivity">
+        tools:context=".ui.main.MainActivity">
 
         <TextView
             style="@style/label_titulo"
             android:text="@string/label_dado_cliente" />
 
-        <EditText
+        <TextView
+            android:id="@+id/tvNome"
             style="@style/margin_lateral"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint_nome_cliente" />
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            tools:text="Fulano da Silva" />
 
         <TextView
             style="@style/label_titulo"
@@ -30,10 +33,13 @@
         <LinearLayout style="@style/container_horizontal">
 
             <CheckBox
+                android:id="@+id/cbAtum"
                 style="@style/checkbox_pizza"
+                android:checked="true"
                 android:text="@string/label_atum" />
 
             <CheckBox
+                android:id="@+id/cbBacon"
                 style="@style/checkbox_pizza"
                 android:text="@string/label_bacon" />
 
@@ -42,10 +48,12 @@
         <LinearLayout style="@style/container_horizontal">
 
             <CheckBox
+                android:id="@+id/cbCalabresa"
                 style="@style/checkbox_pizza"
                 android:text="@string/label_calabresa" />
 
             <CheckBox
+                android:id="@+id/cbMussarela"
                 style="@style/checkbox_pizza"
                 android:text="@string/label_mussarela" />
 
@@ -88,9 +96,10 @@
 
 
         <Button
-            android:layout_marginBottom="16dp"
+            android:id="@+id/btCalcular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:background="@drawable/botao_personalilzado"
             android:text="@string/botao_calcular"
             android:textColor="#FFFFFF" />
